@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 //Redux stuff
 import { Provider } from 'react-redux';
 import { createStore,applyMiddleware } from 'redux';
-import promiseMiddleware from 'redux-promise'; 
+import promiseMiddleware from 'redux-promise';  // se conecta a la API
 
 // PromiseMiddleware sirve para 7
 // esperar que la api devuelva  la respuesta 
